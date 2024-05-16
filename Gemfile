@@ -5,11 +5,11 @@ ruby '>= 3.0.0'
 
 gem 'pkg-config', '~> 1.5'
 
-gem 'puma', '~> 6.3'
+gem 'puma', '~> 6.4'
 gem 'rails', '~> 6.1.7'
 gem 'sprockets', '~> 3.7.2'
 gem 'thor', '~> 1.2'
-gem 'rack', '~> 2.2.7'
+gem 'rack', '~> 2.2.8'
 
 gem 'haml-rails', '~>2.0'
 gem 'pg', '~> 1.5'
@@ -37,10 +37,10 @@ group :pam_authentication, optional: true do
 end
 
 gem 'net-ldap', '~> 0.18'
-gem 'omniauth-cas', '~> 2.0'
-gem 'omniauth-saml', '~> 1.10'
+gem 'omniauth-cas', '~> 3.0'
+gem 'omniauth-saml', '~> 2.1'
 gem 'omniauth_openid_connect', '~> 0.6.1'
-gem 'omniauth', '~> 1.9'
+gem 'omniauth', '~> 2.1'
 gem 'omniauth-rails_csrf_protection', '~> 0.1'
 
 gem 'color_diff', '~> 0.1'
@@ -59,7 +59,7 @@ gem 'idn-ruby', require: 'idn'
 gem 'kaminari', '~> 1.2'
 gem 'link_header', '~> 0.0'
 gem 'mime-types', '~> 3.4.1', require: 'mime/types/columnar'
-gem 'nokogiri', '~> 1.15'
+gem 'nokogiri', '~> 1.16'
 gem 'oj', '~> 3.14'
 gem 'ox', '~> 2.14'
 gem 'parslet'
